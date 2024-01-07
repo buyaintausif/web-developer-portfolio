@@ -99,6 +99,11 @@ nav a {
 }
 /* 
 main section style */
+
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* 
 about section style */
 
@@ -107,4 +112,18 @@ about section style */
   border-radius: 10px;
   background-color: #fff8f3;
   margin: 130px 0;
+}
+
+.about-info-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about-info{
+  text-align: center;
+}
+
+#what-i-do-des{
+  padding: 30px 150px;
+
 }
